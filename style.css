@@ -1,0 +1,122 @@
+.carousel_index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.productos_index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.productos_index2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.promo_index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    width: 60%;
+}
+
+.productos_index3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+  }
+
+.container-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    width: 70%;
+}
+
+.productdetail4 {
+    width: 120%;
+}
+
+.infoproducto {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.detallesproducto {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.opiniones {
+    padding-bottom: 50px;
+}
+
+.checked {
+    color: orange;
+  }
+
+.form-group {
+    padding-right: 40%;
+}
+
+.publicar_comm {
+padding-left: 50px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color:#3333cc;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

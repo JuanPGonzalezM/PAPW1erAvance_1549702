@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .MiCuenta {
+            padding-left: 0px;
+            padding-top: 150px;
+        }
+
+        .button1 {
+            background-color: grey;
+            border: none;
+            color: white;
+            padding: 60px 100px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 16px;
+        }
+
+        .button {
+            background-color: #ddd;
+            border: none;
+            color: black;
+            padding: 50px 150px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 16px;
+        }
+
+        .button:hover {
+            background-color: #f1f1f1;
+        }
+
+        .info_user {
+
+            padding-top: 100px;
+            padding-right: 200px;
+        }
+
+        .user {
+            padding-top: 20px;
+        }
+
+        .notification {
+            background-color: #555;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            position: relative;
+            display: inline-block;
+            border-radius: 2px;
+        }
+
+        .notification:hover {
+            background: greenyellow;
+        }
+
+        .notification .badge {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            padding: 5px 10px;
+            border-radius: 50%;
+            background: red;
+            color: white;
+        }
+
+        .tabla_usuarios {
+            padding-top: 75px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 16px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">PAPW STORE</a>
+            </div>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">SEARCH</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <div class="user">
+                    <button type="button" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-user"></span> User
+                    </button>
+                    <a onclick="window.open('shop_car.html')" href="#" class="notification">
+                        <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+                        <span class="badge">1</span>
+                    </a>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 style="text-align: center">LISTA DE USUARIOS</h1>
+
+    <div class="tabla_usuarios">
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Mail</th>
+            </tr>
+            <tr>
+                <td>nombre</td>
+                <td>apellido</td>
+                <th>correo</th>
+            </tr>
+            <tr>
+                <td>nombre</td>
+                <td>apellido</td>
+                <th>correo</th>
+            </tr>
+            <tr>
+                <td>nombre</td>
+                <td>apellido</td>
+                <th>correo</th>
+            </tr>
+        </table>
+    </div>
+
+
+
+</body>
+
+</html>

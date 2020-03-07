@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .MiCuenta {
+            padding-left: 200px;
+            padding-top: 50px;
+        }
+
+        .bbutton {
+            padding-top: 50px;
+        }
+
+        .button {
+            background-color: #ddd;
+            border: none;
+            color: black;
+            padding: 50px 150px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 16px;
+        }
+
+        .button:hover {
+            background-color: #f1f1f1;
+        }
+
+        .info_user {
+
+            padding-top: 100px;
+            padding-right: 200px;
+        }
+
+        .user {
+            padding-top: 20px;
+        }
+
+        .notification {
+            background-color: #555;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            position: relative;
+            display: inline-block;
+            border-radius: 2px;
+        }
+
+        .notification:hover {
+            background: greenyellow;
+        }
+
+        .notification .badge {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            padding: 5px 10px;
+            border-radius: 50%;
+            background: red;
+            color: white;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">PAPW STORE</a>
+            </div>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">SEARCH</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <div class="user">
+                    <a href="cuenta_usuario.html">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span class="glyphicon glyphicon-user"></span> User
+                        </button>
+                    </a>
+                    <a href="shop_car.html" class="notification">
+                        <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+                        <span class="badge">2</span>
+                    </a>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-6">
+                <div class="MiCuenta">
+                    <h1>Mi Cuenta</h1>
+                    <div class="bbutton">
+                        <a href="pedidos.html">
+                            <button class="button">Mis Pedidos</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 col-md-6">
+                <div class="info_user">
+                    <img src="img/user.jpg" class="img-thumbnail" alt="Cinque Terre">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">Informacion Usuario</div>
+                        <div class="panel-body">
+                            <p>Nombre: </p>
+                            <p>Apellido: </p>
+                            <p>Correo: </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
